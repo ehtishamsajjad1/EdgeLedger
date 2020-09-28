@@ -7,7 +7,7 @@
     padding: 0;
     margin: 0;
     /* For Debuging */
-    outline: 1px yellow solid;
+    /* outline: 1px yellow solid; */
 }
 
 body {
@@ -133,4 +133,19 @@ img {
 /* All elements inside hero will come forward */
 .hero * {
     z-index: 10;
+}
+
+/* Icons */
+
+.icons {
+    padding: 30px;
+}
+
+/* Icons Designing */
+.icons i {
+    padding: 1rem;
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
 }
