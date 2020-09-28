@@ -1,0 +1,79 @@
+/* Importing google fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+
+/* Resetting default properties of all elements */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background: #fff;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* List without dots */
+ul {
+    list-style: none;
+}
+
+/* Links without underline */
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+h1,
+h2 {
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+p {
+    margin: 10px 0;
+}
+
+/* Images will take full width size */
+img {
+    width: 100%;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    /* Items are in center Y axies */
+    align-items: center;
+    /* Logo on left and nav items on right X axies */
+    justify-content: space-between;
+    background-color: #333;
+    color: #fff;
+    opacity: 0.8;
+    width: 100%;
+    /* Height of navbar */
+    height: 70px;
+    /* position: fixed; */
+    top: 0px;
+    padding: 0 30px;
+}
+
+.navbar a {
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 5px;
+}
+
+.navbar a:hover {
+    border-bottom: #28a745 2px solid;
+}
+
+.navbar ul {
+    /* In order to align list items in ul of navbar we apply flex property */
+    display: flex;
+}
+
+.navbar .logo {
+    font-weight: 400;
+}
