@@ -6,6 +6,8 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    /* For Debuging */
+    outline: 1px yellow solid;
 }
 
 body {
@@ -54,7 +56,7 @@ img {
     width: 100%;
     /* Height of navbar */
     height: 70px;
-    /* position: fixed; */
+    position: fixed;
     top: 0px;
     padding: 0 30px;
 }
@@ -76,4 +78,59 @@ img {
 
 .navbar .logo {
     font-weight: 400;
+}
+
+/* Header */
+
+.hero {
+    background: url(../images/home/showcase.jpg) no-repeat center center/cover;
+    height: 100vh;
+    /* We will add overlay over hero image so it needs to be relative */
+    position: relative;
+    /* Color of the text */
+    color: #fff;
+}
+
+/* Content on hero Page */
+.hero .content {
+    /* Takes the height of whole parent container i.e. class='hero' */
+    height: 100%;
+    display: flex;
+    /* Y axies are main axies */
+    flex-direction: column;
+    /* On Y axies Content will be on center */
+    justify-content: center;
+    /* On X axies text will be aligned center and will use whole space*/
+    text-align: center;
+    /* On X axies Content will be on center and will not use whole space, and depends on content */
+    align-items: center;
+    padding: 0 20px;
+}
+
+.hero .content h1 {
+    font-size: 3.5rem;
+}
+
+.hero .content p {
+    font-size: 1.5rem;
+    /* Maximum Width of the container */
+    max-width: 37.5rem;
+    margin: 20px 0 30px;
+}
+
+/* It is child element of hero that comes right after */
+.hero::before {
+    content: "";
+    /* overlay over hero image so it needs to be absolute */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+/* All elements inside hero will come forward */
+.hero * {
+    z-index: 10;
 }
