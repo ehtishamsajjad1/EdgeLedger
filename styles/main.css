@@ -97,7 +97,7 @@ img {
 }
 
 /* Content on hero Page */
-.hero .content {
+.content {
     /* Takes the height of whole parent container i.e. class='hero' */
     height: 100%;
     display: flex;
@@ -194,9 +194,17 @@ img {
     outline-color: #28a745;
 }
 
-.callback-form .btn {
-    padding: 12px 0;
-    margin-top: 20px;
+.callback-form .btn-sub {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 30px;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+}
+.callback-form .btn-sub:hover {
+    opacity: 0.9;
 }
 
 /* Post */
@@ -270,4 +278,16 @@ img {
     .team img {
         width: 70%;
     }
+}
+
+.success {
+    height: 100vh;
+    background: #28a745;
+    text-align: center;
+    color: #fff;
+}
+
+.success a {
+    padding: 10px 20px;
+    margin: 0 5px;
 }
