@@ -24,11 +24,20 @@ $("#navbar a, .btn").on("click", function (e) {
 
         const hash = this.hash;
 
-        $("html, body").animate(
-            {
-                scrollTop: $(hash).offset().top - 100,
-            },
-            800
-        );
+        if (window.innerWidth > 768) {
+            $("html, body").animate(
+                {
+                    scrollTop: $(hash).offset().top - 100,
+                },
+                800
+            );
+        } else {
+            $("html, body").animate(
+                {
+                    scrollTop: $(hash).offset().top - 125,
+                },
+                800
+            );
+        }
     }
 });
