@@ -2,7 +2,7 @@
 
 This repo houses the assets used to build the Edgeledger website using flexbox only, available at [Edgeledger Website](es-edgeledger.netlify.app).
 
-![Hero Page](https://camo.githubusercontent.com/31b5c6f54f11e284b2e81c0f840a99b9f429ef79/68747470733a2f2f64726976652e676f6f676c652e636f6d2f75633f6578706f72743d766965772669643d314b655478465646436f30704c314c7037505154665f79766a415235636c30575f)
+![Hero Page](https://drive.google.com/uc?export=view&id=1KeTxFVFCo0pL1Lp7PQTf_yvjAR5cl0W_)
 
 ## Software languages used
 
