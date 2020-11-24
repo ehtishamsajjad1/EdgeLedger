@@ -1,6 +1,6 @@
 # Welcome to EdgeLedger Website!
 
-This repo houses the assets used to build the Edgeledger website using flexbox only, available at [Edgeledger Website](es-edgeledger.netlify.app).
+This repo houses the assets used to build the Edgeledger website using flexbox only, available at [Edgeledger Website](https://es-edgeledger.netlify.app/).
 
 ![Hero Page](https://drive.google.com/uc?export=view&id=1KeTxFVFCo0pL1Lp7PQTf_yvjAR5cl0W_)
 
